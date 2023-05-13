@@ -37,6 +37,7 @@
  */
 @import url("fonts.css");
 @import url("font-awesome/css/font-awesome.min.css");
+/* @import url("font-awesome/css/*.css"); */
 @import url("micons/micons.css");
 
 
@@ -1096,7 +1097,7 @@ header .row {
 header .top-bar {
 	display: block;
 	background: #000000;
-	min-width: 220px;
+	min-width: 40px;
 	min-height: 66px;
 	position: absolute;
 	left: 90px;
@@ -1117,10 +1118,9 @@ header .logo a {
 	font: 0/0 a;
 	text-shadow: none;
 	color: transparent;
-	width: 92px;
+	width: 40px;
 	height: 15px;
-	background: url("../images/logo.png") no-repeat center;
-	background-size: 92px 15px;
+	background-size: 40px 15px;
 }
 
 /**
@@ -1251,6 +1251,7 @@ header .logo a {
 	line-height: 16px;
 	border: none;
 }
+
 .main-navigation li a:hover {
 	color: #FF0077;
 	padding-left: 1rem;
@@ -2595,5 +2596,6 @@ footer .copyright span:last-child::after {
 #go-top a:hover {
 	background: #000000;
 }
+
 
 /*# sourceMappingURL=main.css.map */
