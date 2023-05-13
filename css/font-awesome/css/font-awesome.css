@@ -1345,6 +1345,9 @@
 .fa-yahoo:before {
   content: "\f19e";
 }
+.fa-tiktok:before {
+  content: "F6CC";
+}
 .fa-google:before {
   content: "\f1a0";
 }
